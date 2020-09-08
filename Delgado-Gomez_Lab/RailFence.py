@@ -36,7 +36,7 @@ def Encriptar(Texto, Niveles):
 def Desencriptar(Texto_Cifrado, Niveles): 
 
 	# Crea una matriz a partir de la palabra a cifrar y los niveles de encriptación
-	Matriz = [['\n' for i in range(len(Texto))]  #Eje X
+	Matriz = [['\n' for i in range(len(Texto_Cifrado))]  #Eje X
 				for j in range(Niveles)]  #Eje Y
 	
 	# Se define un punto de inicio ligado a la matriz, en donde se empieza por el 0,0
